@@ -13,6 +13,7 @@ public class Main {
         layeredPane.setBounds(0,0,500,500);
 
         JFrame frame = new JFrame();
+        frame.add(layeredPane);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(new Dimension(500, 500));
         frame.setLayout(null);
