@@ -9,6 +9,8 @@ public class Main {
         //                   third dimension for positioning components
         //                    ex. depth, Z-index
 
+        JLayeredPane layeredPane = new JLayeredPane();
+
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(new Dimension(500, 500));
