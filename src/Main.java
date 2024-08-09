@@ -10,6 +10,7 @@ public class Main {
         //                    ex. depth, Z-index
 
         JLayeredPane layeredPane = new JLayeredPane();
+        layeredPane.setBounds(0,0,500,500);
 
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
