@@ -28,9 +28,9 @@ public class Main {
         JLayeredPane layeredPane = new JLayeredPane();
         layeredPane.setBounds(0,0,500,500);
 
-        layeredPane.add(label1);
-        layeredPane.add(label2);
-        layeredPane.add(label3);
+        layeredPane.add(label1,Integer.valueOf(0));
+        layeredPane.add(label2,Integer.valueOf(2));
+        layeredPane.add(label3,Integer.valueOf(1));
 
         JFrame frame = new JFrame();
         frame.add(layeredPane);
